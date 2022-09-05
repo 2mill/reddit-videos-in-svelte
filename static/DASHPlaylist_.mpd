@@ -1,0 +1,36 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT13.000S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+  <Period duration="PT13.000S">
+    <AdaptationSet contentType="video" group="1" maxFrameRate="30" maxHeight="720" maxWidth="960" mimeType="video/mp4" par="4:3" sar="1:1" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation bandwidth="254411" codecs="avc1.4D401E" frameRate="30" height="220" id="video_254411" scanType="progressive" width="294">
+        <BaseURL>https://v.redd.it/njuwhubk3ik91/DASH_220.mp4</BaseURL>
+        <SegmentBase indexRange="767-846" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-766" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="595605" codecs="avc1.4D401E" frameRate="30" height="240" id="video_595605" scanType="progressive" width="320">
+        <BaseURL>https://v.redd.it/njuwhubk3ik91/DASH_240.mp4</BaseURL>
+        <SegmentBase indexRange="762-841" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-761" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="792604" codecs="avc1.4D401E" frameRate="30" height="360" id="video_792604" scanType="progressive" width="480">
+        <BaseURL>https://v.redd.it/njuwhubk3ik91/DASH_360.mp4</BaseURL>
+        <SegmentBase indexRange="763-842" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-762" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="1186582" codecs="avc1.4D401F" frameRate="30" height="480" id="video_1186582" scanType="progressive" width="640">
+        <BaseURL>https://v.redd.it/njuwhubk3ik91/DASH_480.mp4</BaseURL>
+        <SegmentBase indexRange="762-841" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-761" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="2353292" codecs="avc1.4D401F" frameRate="30" height="720" id="video_2353292" scanType="progressive" width="960">
+        <BaseURL>https://v.redd.it/njuwhubk3ik91/DASH_720.mp4</BaseURL>
+        <SegmentBase indexRange="761-840" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-760" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

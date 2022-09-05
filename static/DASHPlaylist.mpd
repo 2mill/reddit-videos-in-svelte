@@ -1,0 +1,45 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT15.310S" minBufferTime="PT4.01S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+  <Period duration="PT15.310S">
+    <AdaptationSet contentType="audio" group="1" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation audioSamplingRate="48000" bandwidth="131751" codecs="mp4a.40.2" id="audio_0_131751">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>DASH_audio.mp4</BaseURL>
+        <SegmentBase indexRange="663-742" indexRangeExact="true" timescale="48000">
+          <Initialization range="0-662" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="video" group="2" maxFrameRate="30" maxHeight="1080" maxWidth="608" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation bandwidth="251844" codecs="avc1.4D401E" frameRate="30" height="220" id="video_251844" scanType="progressive" width="124">
+        <BaseURL>DASH_220.mp4</BaseURL>
+        <SegmentBase indexRange="789-868" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-788" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="583624" codecs="avc1.4D401E" frameRate="30" height="240" id="video_583624" scanType="progressive" width="136">
+        <BaseURL>DASH_240.mp4</BaseURL>
+        <SegmentBase indexRange="789-868" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-788" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="757666" codecs="avc1.4D401E" frameRate="30" height="360" id="video_757666" scanType="progressive" width="202">
+        <BaseURL>DASH_360.mp4</BaseURL>
+        <SegmentBase indexRange="790-869" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-789" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="1100795" codecs="avc1.4D401F" frameRate="30" height="480" id="video_1100795" scanType="progressive" width="270">
+        <BaseURL>DASH_480.mp4</BaseURL>
+        <SegmentBase indexRange="784-863" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-783" />
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="2204702" codecs="avc1.4D401F" frameRate="30" height="720" id="video_2204702" scanType="progressive" width="406">
+        <BaseURL>DASH_720.mp4</BaseURL>
+        <SegmentBase indexRange="790-869" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-789" />
+        </SegmentBase>
+      </Representation>
+      </AdaptationSet>
+  </Period>
+</MPD>
